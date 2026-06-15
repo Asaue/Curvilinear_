@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local environments
+envs/*
+!envs/README.md
+.venv/
+venv/
+
+# IDE / notebooks
+.vscode/
+.idea/
+.ipynb_checkpoints/
+*.ipynb
+
+# Data, checkpoints, and experiment outputs
+data/
+datasets/
+1k_size_handle/
+lt1024_data/
+weight/
+weights/
+checkpoints/
+pretrain_model/
+results/
+out_image/
+test_outputs/
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.onnx
+*.log
+
+# Hugging Face / misc caches
+.cache/
+wandb/
+runs/

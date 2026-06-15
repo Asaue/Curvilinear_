@@ -1,0 +1,13 @@
+torch
+torchvision
+numpy
+opencv-python
+Pillow
+scikit-image
+scikit-learn
+matplotlib
+tqdm
+albumentations==1.2.1
+fvcore
+gpustat
+huggingface_hub
